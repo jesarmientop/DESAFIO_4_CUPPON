@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #000000;
+
+}
+
+h5 {font-size: 1.25rem;}
+
+@media screen and (min-width: 100px) {
+    footer img {
+        width: 5%;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer img {
+        float: none;
+        width: 20%;
+    }
+}
